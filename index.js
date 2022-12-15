@@ -1,7 +1,5 @@
 /*
- * Evelyn Dai
- * 2-11-2022
- * AG Wen Qiu
+ * by aeronomatron.
  *
  * Javascript file to provide some dynamic changes to index.html elements and UI.
  */
