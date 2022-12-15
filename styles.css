@@ -1,0 +1,71 @@
+/*
+  Evelyn Dai
+  18-10-22
+  AG Wen Qiu
+
+  Style sheet for CP2, adding a little flair to the archive.
+*/
+
+body {
+  background-image: url("img/legscreen1.png");
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Gemunu Libre", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  width: 80%;
+}
+
+div footer {
+  font-style: italic;
+}
+
+img {
+  border-radius: 3px;
+}
+
+.fullpainting, .sketches, .feraldesign img, .humandesign img {
+  max-width: 100%;
+  height: auto;
+}
+
+.bundle, #playdohpanels {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#designs, #sketchsection {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  align-content: flex-start;
+}
+
+#designs article, #sketchsection article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  height: auto;
+  width: 500px;
+  padding: 5px;
+}
+
+.bundle img {
+  max-width: 15%;
+  height: auto;
+  padding: 5px;
+}
+
+#banner, .panels {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 5px;
+}
+
+.hidden {
+  display: none;
+}
