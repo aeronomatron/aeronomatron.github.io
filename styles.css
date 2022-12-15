@@ -28,6 +28,11 @@ img {
   height: auto;
 }
 
+.portrait {
+  max-width: 60%;
+  width: auto;
+}
+
 .bundle, #playdohpanels {
   display: flex;
   flex-direction: row;
