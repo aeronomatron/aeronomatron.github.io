@@ -14,13 +14,31 @@
   <title>Art Archive</title>
 </head>
 <body>
+  <header>
+      <div>
+        <img id="xerxicon" src='img/archive-cover.png' 
+          alt='icon of a creature using a drawing tablet'>
+        <h1>Nightswan's Art Archive</h1>
+      </div>
+      <nav>
+        <button id='graphics'>Graphics & UI</button>
+        <button id='painting'>Paintings & Renders</button>
+        <button id='charportraits'>Portraits</button>
+        <button id='creatures'>Creature Designs</button>
+        <button id='project'>Projects</button>
+        <button id='miscwips'> Misc WIPs & Sketches</button>
+      </nav>
+    </header>
   <main>
-    <h1>Welcome to the Archive (where I keep all my art examples.)</h1>
-    <section>
+    <section id="welcome">
+      <h1>Welcome to the Archive (where I keep all my art examples.)</h1>
       <p>I'm constantly adding new art to the archive!</p>
       <p>Make sure to check back for updates.</p>
+      <button id="badgebutton">Spawn Cat</button>
+      <section id="spawnedcats"></section>
     </section>
-    <h2>Misc Graphics Commissions</h2>
+    <div id="miscgraphics" class="hidden">
+      <h2>Graphics Commissions</h2>
     <select name="clients" id="bundleclients">
       <option value="none">None</option>
       <option value="playdohbear">PlayDohBear</option>
@@ -63,6 +81,10 @@
       <img src="img/playdohbear/playdohsus.png" alt="cat is suspicious">
       <img src="img/playdohbear/playdohw.png" alt="cat is nervous">
       <img src="img/playdohbear/playdohwidewow.png" alt="cat going WOW! stretched horizontally">
+      <img src="img/playdohbear/playdohevil.png" alt="cat is scheming">
+      <img src="img/playdohbear/playdohsmadge.png" alt="cat is sadge and madge">
+      <img src="img/playdohbear/playdohbeluga.png" alt="cat is beluga">
+      <img src="img/playdohbear/playdohweary.png" alt="cat is weary">
     </section>
     <section class="bundle hidden" id="legendcomm">
       <img src="img/legend/legendlag.gif" alt="blue grim reaper loading slowly">
@@ -81,112 +103,113 @@
       'vibes'">
       <img src="img/scabbaz/scabbaz-vibes2.png" alt="same as previous image, without the word">
     </section>
-    <p></p>
-    <button id="badgebutton">Spawn Cat</button>
-    <section id="spawnedcats"></section>
-    <h2>Environment/Scene Paintings</h2>
-    <section>
-      <article>
-        <img class="fullpainting" src="img/eldergods1.png"
-        alt="Large cavern shrine with pools of glowing acid like liquid, where a small figure
-        approaches an altar for two gods.">
-        <footer>Personal work of a fantasy altar of plague gods, loosely based on the shooter game
-          Outriders. 2022</footer>
-      </article>
-      <p></p>
-      <article>
-        <img class="fullpainting" src="img/eldergods2.png"
-        alt="Large room in a temple, pillars supporting a large winged statue with
-        two other statues behind it, one holding a black hole. Fires are burning in
-        braziers and a bowl held by the winged statue. Small figure is approaching
-        the winged statue.">
-        <footer>Personal work of a fantasy altar of fire gods, loosely based on the shooter game
-          Outriders. 2022</footer>
-      </article>
-      <p></p>
-      <article>
-        <img class="fullpainting" src="img/arttradeKhothic.png" 
-        alt="Dragon creature standing atop a mountain at sunset.">
-        <footer>Art trade of a starsnare, a dragon-like creature with artist Khothic. 2022</footer>
+    </div>
+    <div id="envpainting" class="hidden">
+      <h2>Environment/Scene Paintings</h2>
+      <section>
+        <article>
+          <img class="fullpainting" src="img/eldergods1.png"
+          alt="Large cavern shrine with pools of glowing acid like liquid, where a small figure
+          approaches an altar for two gods.">
+          <footer>Personal work of a fantasy altar of plague gods, loosely based on the shooter game
+            Outriders. 2022</footer>
+        </article>
         <p></p>
-      </article>
-      <article>
-        <img class="fullpainting" src="img/darksky.png" 
-        alt="Dragon creature standing in a rocky plain at night.">
-        <footer>Personal work, study of a night sky image. 2022</footer>
+        <article>
+          <img class="fullpainting" src="img/eldergods2.png"
+          alt="Large room in a temple, pillars supporting a large winged statue with
+          two other statues behind it, one holding a black hole. Fires are burning in
+          braziers and a bowl held by the winged statue. Small figure is approaching
+          the winged statue.">
+          <footer>Personal work of a fantasy altar of fire gods, loosely based on the shooter game
+            Outriders. 2022</footer>
+        </article>
         <p></p>
-      </article>
-      <article>
-        <img class="fullpainting" src="img/outriders-dtiys.png"
-        alt="Scene at night. Menacing figure holding two blades advancing on warrior with
-        a gun.">
-        <footer>Work done for the official Outriders DTIYS (draw this in your style)
-          challenge. 2022</footer>
-        <p></p>
-      </article>
-      <article>
-        <img class="fullpainting" src="img/fullmetal-v.png"
-        alt="Man summons fire wave to fight enemy soldiers">
-        <footer>Fanart of the Outriders player Fullmetal_V. 2021</footer>
-        <p></p>
-      </article>
-      <article>
-        <img class="fullpainting" src="img/deepnest-display.png"
-        alt="Scene from the game Hollow Knight's Deepnest area">
-        <footer>Visualization of the Deepnest area from Hollow Knight as a background. 2021</footer>
-        <p></p>
-      </article>
-      <article>
-        <img class="fullpainting" src="img/pond.png"
-        alt="A serene pond with koi">
-        <footer>Pond referenced from the Overwatch League 2020 animated video. 2021</footer>
-        <p></p>
-      </article>
-      <article>
-        <img class="fullpainting" src="img/serversentinel-comm.png"
-        alt="Knight with dragon in front of a castle">
-        <footer>Commission from Discord by user known as Server Sentinel. 2021</footer>
-        <p></p>
-      </article>
-      <article>
-        <img class="fullpainting" src="img/void-blood-full.png"
-        alt="Mysterious cave in a forest">
-        <footer>Background for a collaboration piece with artists catko and akir_br. 2021</footer>
-        <p></p>
-      </article>
-      <article>
-        <img class="fullpainting" src="img/sneaking-lavacrystal.png"
-        alt="Lava flowing down a mountain">
-        <footer>Entry for a Ufogs species art event. 2021</footer>
-        <p></p>
-      </article>
-      <article>
-        <img class="fullpainting" src="img/ufogsdta3-moon.png"
-        alt="Creature framed by the full moon over a cliff of fireflies">
-        <footer>Entry for a Ufogs DTIYS challenge. 2021</footer>
-        <p></p>
-      </article>
-      <article>
-        <img class="fullpainting" src="img/ufogsloreart1.png"
-        alt="A creature battling an evil creature in a forest">
-        <footer>Entry for a Ufogs art event. 2021</footer>
-        <p></p>
-      </article>
-      <article>
-        <img class="fullpainting" src="img/whale-bones-ref.png"
-        alt="Bones of giant creatures in a cavern">
-        <footer>Cave, referenced from an image off Google Images. 2021</footer>
-        <p></p>
-      </article>
-      <article>
-        <img class="fullpainting" src="img/the-climb-2018.jpg" 
-        alt="Two OCs, a fox and wolf, ascending a snowy mountain.">
-        <footer>Personal work of an original wolf character with unknown artist's original
-          fox character. 2018</footer>
+        <article>
+          <img class="fullpainting" src="img/arttradeKhothic.png" 
+          alt="Dragon creature standing atop a mountain at sunset.">
+          <footer>Art trade of a starsnare, a dragon-like creature with artist Khothic. 2022</footer>
           <p></p>
-      </article>
-    </section>
-    <h2>Character Art/Portraits</h2>
+        </article>
+        <article>
+          <img class="fullpainting" src="img/darksky.png" 
+          alt="Dragon creature standing in a rocky plain at night.">
+          <footer>Personal work, study of a night sky image. 2022</footer>
+          <p></p>
+        </article>
+        <article>
+          <img class="fullpainting" src="img/outriders-dtiys.png"
+          alt="Scene at night. Menacing figure holding two blades advancing on warrior with
+          a gun.">
+          <footer>Work done for the official Outriders DTIYS (draw this in your style)
+            challenge. 2022</footer>
+          <p></p>
+        </article>
+        <article>
+          <img class="fullpainting" src="img/fullmetal-v.png"
+          alt="Man summons fire wave to fight enemy soldiers">
+          <footer>Fanart of the Outriders player Fullmetal_V. 2021</footer>
+          <p></p>
+        </article>
+        <article>
+          <img class="fullpainting" src="img/deepnest-display.png"
+          alt="Scene from the game Hollow Knight's Deepnest area">
+          <footer>Visualization of the Deepnest area from Hollow Knight as a background. 2021</footer>
+          <p></p>
+        </article>
+        <article>
+          <img class="fullpainting" src="img/pond.png"
+          alt="A serene pond with koi">
+          <footer>Pond referenced from the Overwatch League 2020 animated video. 2021</footer>
+          <p></p>
+        </article>
+        <article>
+          <img class="fullpainting" src="img/serversentinel-comm.png"
+          alt="Knight with dragon in front of a castle">
+          <footer>Commission from Discord by user known as Server Sentinel. 2021</footer>
+          <p></p>
+        </article>
+        <article>
+          <img class="fullpainting" src="img/void-blood-full.png"
+          alt="Mysterious cave in a forest">
+          <footer>Background for a collaboration piece with artists catko and akir_br. 2021</footer>
+          <p></p>
+        </article>
+        <article>
+          <img class="fullpainting" src="img/sneaking-lavacrystal.png"
+          alt="Lava flowing down a mountain">
+          <footer>Entry for a Ufogs species art event. 2021</footer>
+          <p></p>
+        </article>
+        <article>
+          <img class="fullpainting" src="img/ufogsdta3-moon.png"
+          alt="Creature framed by the full moon over a cliff of fireflies">
+          <footer>Entry for a Ufogs DTIYS challenge. 2021</footer>
+          <p></p>
+        </article>
+        <article>
+          <img class="fullpainting" src="img/ufogsloreart1.png"
+          alt="A creature battling an evil creature in a forest">
+          <footer>Entry for a Ufogs art event. 2021</footer>
+          <p></p>
+        </article>
+        <article>
+          <img class="fullpainting" src="img/whale-bones-ref.png"
+          alt="Bones of giant creatures in a cavern">
+          <footer>Cave, referenced from an image off Google Images. 2021</footer>
+          <p></p>
+        </article>
+        <article>
+          <img class="fullpainting" src="img/the-climb-2018.jpg" 
+          alt="Two OCs, a fox and wolf, ascending a snowy mountain.">
+          <footer>Personal work of an original wolf character with unknown artist's original
+            fox character. 2018</footer>
+            <p></p>
+        </article>
+      </section>
+    </div>
+    <div id="charportrait" class="hidden">
+      <h2>Character Art/Portraits</h2>
     <section>
       <article>
         <img class="portrait" src="img/load-screen.png"
@@ -207,7 +230,9 @@
         <p></p>
       </article>
     </section>
-    <h2>Character/Creature Designs</h2>
+    </div>
+    <div id="charcreatures" class="hidden">
+      <h2>Character/Creature Designs</h2>
     <section id="designs">
       <article class="feraldesign">
         <img src="img/creaturedesigns/halloweenfogs.png" alt="Two spooky creatures">
@@ -308,7 +333,33 @@
         <p></p>
       </article>
     </section>
-    <h2>Sketches and WIPs</h2>
+    </div>
+    <div id="charprojects" class="hidden">
+      <h2>Character Concept Projects</h2>
+      <section class="charproj" id="storm">
+        <div class="desc">
+          <img class ="charicon" src="img/storm/storm-icon.png" alt="concept headshot of storm">
+          <p>Dawson "Storm" Myers is a laidback professional killer and personal project. A
+          character originating from late 2022, he is an ongoing project with detailed lore,
+          concept art and used within various writing exercises and pieces.</p>
+        </div>
+        <section class="concepts">
+          <article>
+            <img class="makesmall" src="img/storm/dawson-lol.png" alt="concept headshot 
+            sketch of the character, dawson">
+            <p>Original headshot sketch from August 2022. At this point, there was no concept
+              for anything beyond (then known as) Dawson's face and small personality details.
+            </p>
+          </article>
+          <img src="img/storm/dawson-sketches.png" alt="concept sketches of dawson (storm)">
+          <img src="img/storm/storm-ref.png" alt="the current reference of storm">
+          <img class="makesmall" src="img/storm/tornado-warnin.png" alt="concept art of 
+          character storm with another character, hazard">
+      </section>
+      </section>
+    </div>
+    <div id="wips" class="hidden">
+      <h2>Sketches and WIPs</h2>
     <section id="sketchsection">
       <article>
         <img class="sketches" src="img/sketch/billyhappy.png"
@@ -361,6 +412,7 @@
         <footer>Sketch of a personal work.</footer>
       </article>
     </section>
+    </div>
   </main>
 </body>
 </html>

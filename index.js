@@ -12,6 +12,13 @@
   function init() {
     id("bundleclients").addEventListener("change", showBundle);
     id("badgebutton").addEventListener("click", spawnBadge);
+    id("graphics").addEventListener("click", graphicView);
+    id("painting").addEventListener("click", paintingView);
+    id("charportraits").addEventListener("click", portraitView);
+    id("creatures").addEventListener("click", creatureView);
+    id("project").addEventListener("click", projectView);
+    id("miscwips").addEventListener("click", miscView);
+    id("xerxicon").addEventListener("click", homeView);
   }
 
   /** Used to show the correct set of images when selected in the dropdown */
@@ -28,6 +35,76 @@
     } else if (choice === "scabbaz") {
       id('scabbazcomm').classList.remove('hidden');
     }
+  }
+
+  function graphicView() {
+    id('welcome').classList.add('hidden');
+    id('miscgraphics').classList.remove('hidden');
+    id('envpainting').classList.add('hidden');
+    id('charportrait').classList.add('hidden');
+    id('charcreatures').classList.add('hidden');
+    id('charprojects').classList.add('hidden');
+    id('wips').classList.add('hidden');
+  }
+
+  function paintingView() {
+    id('welcome').classList.add('hidden');
+    id('miscgraphics').classList.add('hidden');
+    id('envpainting').classList.remove('hidden');
+    id('charportrait').classList.add('hidden');
+    id('charcreatures').classList.add('hidden');
+    id('charprojects').classList.add('hidden');
+    id('wips').classList.add('hidden');
+  }
+
+  function portraitView() {
+    id('welcome').classList.add('hidden');
+    id('miscgraphics').classList.add('hidden');
+    id('envpainting').classList.add('hidden');
+    id('charportrait').classList.remove('hidden');
+    id('charcreatures').classList.add('hidden');
+    id('charprojects').classList.add('hidden');
+    id('wips').classList.add('hidden');
+  }
+
+  function creatureView() {
+    id('welcome').classList.add('hidden');
+    id('miscgraphics').classList.add('hidden');
+    id('envpainting').classList.add('hidden');
+    id('charportrait').classList.add('hidden');
+    id('charcreatures').classList.remove('hidden');
+    id('charprojects').classList.add('hidden');
+    id('wips').classList.add('hidden');
+  }
+
+  function projectView() {
+    id('welcome').classList.add('hidden');
+    id('miscgraphics').classList.add('hidden');
+    id('envpainting').classList.add('hidden');
+    id('charportrait').classList.add('hidden');
+    id('charcreatures').classList.add('hidden');
+    id('charprojects').classList.remove('hidden');
+    id('wips').classList.add('hidden');
+  }
+
+  function miscView() {
+    id('welcome').classList.add('hidden');
+    id('miscgraphics').classList.add('hidden');
+    id('envpainting').classList.add('hidden');
+    id('charportrait').classList.add('hidden');
+    id('charcreatures').classList.add('hidden');
+    id('charprojects').classList.add('hidden');
+    id('wips').classList.remove('hidden');
+  }
+
+  function homeView() {
+    id('welcome').classList.remove('hidden');
+    id('miscgraphics').classList.add('hidden');
+    id('envpainting').classList.add('hidden');
+    id('charportrait').classList.add('hidden');
+    id('charcreatures').classList.add('hidden');
+    id('charprojects').classList.add('hidden');
+    id('wips').classList.add('hidden');
   }
 
   /** Spawns a random cat image out of 7 possible images */
