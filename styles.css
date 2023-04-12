@@ -11,6 +11,9 @@ body {
   font-family: "Gemunu Libre", sans-serif;
   color: white;
   margin: 0px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 main {
@@ -24,6 +27,11 @@ header {
   position: sticky;
   top: 0;
   height: 15vh;
+}
+
+#copyright {
+  position: fixed;
+  bottom: 0;
 }
 
 header, nav, header div {
