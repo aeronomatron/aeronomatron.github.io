@@ -17,7 +17,6 @@
     id("charportraits").addEventListener("click", portraitView);
     id("creatures").addEventListener("click", creatureView);
     id("project").addEventListener("click", projectView);
-    id("miscwips").addEventListener("click", miscView);
     id("xerxicon").addEventListener("click", homeView);
   }
 
@@ -87,16 +86,6 @@
     id('wips').classList.add('hidden');
   }
 
-  function miscView() {
-    id('welcome').classList.add('hidden');
-    id('miscgraphics').classList.add('hidden');
-    id('envpainting').classList.add('hidden');
-    id('charportrait').classList.add('hidden');
-    id('charcreatures').classList.add('hidden');
-    id('charprojects').classList.add('hidden');
-    id('wips').classList.remove('hidden');
-  }
-
   function homeView() {
     id('welcome').classList.remove('hidden');
     id('miscgraphics').classList.add('hidden');
@@ -120,14 +109,6 @@
     catArray[6] = "img/playdohbear/badge7.png";
     newCat.src = catArray[Math.floor(Math.random() * catArray.length)];
     id("spawnedcats").appendChild(newCat);
-  }
-
-  /** Displays an error message if any error during the fetch process occurs */
-  function errorHandler() {
-    let errorMsg = document.createElement("p");
-    errorMsg.textContent = "Sorry, Bored API is not available right now.";
-    id('boredsection').innerHTML = '';
-    id('boredsection').appendChild(errorMsg);
   }
 
   /**
