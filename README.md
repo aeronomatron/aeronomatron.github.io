@@ -16,8 +16,5 @@ I can also do work focused on a specific subject (headshot, bodyshot etc.) and d
 ## Character Designs
 I work as a designer for the Instagram account ufogs.species and most of my designs shown in this section are custom drawn to be sold on the account. There are also miscellaneous designs for other species accounts and a few of my older human designs. I have no recent finished designs but I recently began working on humans, with more examples in Sketches.
 
-## Sketches and WIPs
-These are sketches that I am not sure will be finished, but provide some baselines to things that I may not have demonstrated in the previous sections (e.g. drawing humans.) Most of my sketches do not end up finished anyways, so posting some will show my more recent experimentation and projects that I haven't finished yet.
-
 ## Cat Generator
 Just a fun little demonstration of a bit of my JavaScript knowledge.
