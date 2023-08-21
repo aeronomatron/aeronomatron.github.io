@@ -14,7 +14,10 @@ These are full renders of scenes that may or may not contain some living subject
 I can also do work focused on a specific subject (headshot, bodyshot etc.) and display my skills to do so here. These can also be artworks that aren't fully rendered/painted, as I have a small variation of styles I use. 
 
 ## Character Designs
-I work as a designer for the Instagram account ufogs.species and most of my designs shown in this section are custom drawn to be sold on the account. There are also miscellaneous designs for other species accounts and a few of my older human designs. I have no recent finished designs but I recently began working on humans, with more examples in Sketches.
+I work as a designer for the Instagram account ufogs.species and most of my designs shown in this section are custom drawn to be sold on the account. There are also miscellaneous designs for other species accounts and a few of my older human designs. I have no recent finished designs but I recently began working on humans.
+
+## Animations
+Only recently, I began experimenting with a hand drawn 2D animation style and 3D modelling and rigging using Maya and Unity. 
 
 ## Cat Generator
 Just a fun little demonstration of a bit of my JavaScript knowledge.
