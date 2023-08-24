@@ -9,6 +9,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   font-family: "Gemunu Libre", sans-serif;
+  font-size: 15px;
   color: white;
   margin: 0px;
   display: flex;

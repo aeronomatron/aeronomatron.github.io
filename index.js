@@ -27,6 +27,8 @@
       id('legendcomm').classList.remove('hidden');
     } else if (choice === "scabbaz") {
       id('scabbazcomm').classList.remove('hidden');
+    } else if (choice === "spritney") {
+      id('spritneycomm').classList.remove('hidden');
     }
   }
 
