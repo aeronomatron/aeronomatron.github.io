@@ -56,6 +56,15 @@
     return document.getElementById(id);
   }
 
+    /**
+   * Returns the first element that matches the given CSS selector.
+   * @param {string} query - CSS query selector.
+   * @returns {object[]} array of DOM objects matching the query.
+   */
+    function qs(query) {
+      return document.querySelector(query);
+    }
+
   /**
    * Returns the array of elements that match the given CSS selector.
    * @param {string} query - CSS query selector

@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap"
     rel="stylesheet">
   <script src="index.js"></script>
+  <script src="animpage.js"></script>
   <title>Animations</title>
 </head>
 <body>
@@ -36,8 +37,12 @@
       <option value="none">None</option>
     </select>
     <button id="badgebutton" class="hidden">Spawn Cat</button>
-    <h2>Animations, 2D</h2>
-    <section>
+    <img id="2dbutton" class="animbutton" src="img/2d-anim/2d-button.png" 
+      alt="symbiote with the word '2d' by it">
+    <img id="3dbutton" class="animbutton" src="img/3d-anim/3d-button.png" 
+      alt="creature model with the word '3d' by it">
+    <section class="anim2d hidden">
+      <h2>Animations, 2D</h2>
       <article>
         <img class="animation" src="img/2d-anim/2099-walk-loop.gif"
         alt="miguel o'hara looping walk cycle">
@@ -57,8 +62,26 @@
         <p></p>
       </article>
     </section>
-    <h2>Modelling & Rigging, 3D</h2>
-    <section>
+    <section class="anim3d hidden">
+      <h2>Modelling & Rigging, 3D</h2>
+      <article>
+        <img class="animation" src="img/3d-anim/rig_persp.png"
+          alt="low poly model of xerxes">
+          <footer>3D model of Xerxes, an original character, 
+            built and rigged fully in Maya. Fully functional body and foot systems 
+            for posing and animation. 2023</footer>
+        <p></p>
+      </article>
+      <article>
+        <img class="animation" src="img/3d-anim/rig_persp_systems.png"
+          alt="low poly model of xerxes">
+        <p></p>
+      </article>
+        <article>
+          <img class="animation" src="img/3d-anim/rig_front.png"
+            alt="low poly model of xerxes">
+          <p></p>
+        </article>
         <article>
           <img class="animation" src="img/3d-anim/storm-chibi-model.png"
           alt="chibi style model of the character storm">
