@@ -26,7 +26,7 @@
     <nav>
       <a class="navbar" href="graphics.html">Graphics & UI</a>
       <a class="navbar" href="painting.html">Paintings & Renders</a>
-      <a class="navbar" href="charart.html">Character Focused Art</a>
+      <a class="navbar" href="charart.html">Character Art</a>
       <a class="navbar" href="designs.html">Character Designs</a>
       <a class="navbar" href="projects.html">Projects</a>
       <a class="navbar" href="animations.html">Animation</a>
@@ -37,57 +37,83 @@
       <option value="none">None</option>
     </select>
     <button id="badgebutton" class="hidden">Spawn Cat</button>
+    <p>Click to toggle examples.</p>
     <img id="2dbutton" class="animbutton" src="img/2d-anim/2d-button.png" 
       alt="symbiote with the word '2d' by it">
     <img id="3dbutton" class="animbutton" src="img/3d-anim/3d-button.png" 
       alt="creature model with the word '3d' by it">
     <section class="anim2d hidden">
-      <h2>Animations, 2D</h2>
-      <article>
-        <img class="animation" src="img/2d-anim/2099-walk-loop.gif"
-        alt="miguel o'hara looping walk cycle">
-        <footer>Animated walk cycle of ATSV's Miguel O'hara. 2023</footer>
-        <p></p>
-      </article>
-      <article>
-        <img class="animation" src="img/2d-anim/claws-curl-color.gif"
-          alt="miguel o'hara claws coming out">
-        <footer>Animated claws of ATSV's Miguel O'hara. 2023</footer>
-        <p></p>
-      </article>
-      <article>
-        <img class="animation" src="img/2d-anim/venom-lick.gif"
-          alt="animated teeth baring and tongue of a symbiote">
-        <footer>Test animation of a symbiote. 2023</footer>
-        <p></p>
-      </article>
+      <div class="animheader">
+        <h2>Animations, 2D</h2>
+      </div>
+      <section class="animdrawn">
+        <article>
+          <img class="animation" src="img/2d-anim/2099-walk-loop.gif"
+          alt="miguel o'hara looping walk cycle">
+          <footer>Animated walk cycle of ATSV's Miguel O'hara. 2023</footer>
+          <p></p>
+        </article>
+        <article>
+          <img class="animation" src="img/2d-anim/claws-curl-color.gif"
+            alt="miguel o'hara claws coming out">
+          <footer>Animated claws of ATSV's Miguel O'hara. 2023</footer>
+          <p></p>
+        </article>
+        <article>
+          <img class="animation" src="img/2d-anim/venom-lick.gif"
+            alt="animated teeth baring and tongue of a symbiote">
+          <footer>Test animation of a symbiote. 2023</footer>
+          <p></p>
+        </article>
+      </section>
     </section>
     <section class="anim3d hidden">
-      <h2>Modelling & Rigging, 3D</h2>
-      <article>
-        <img class="animation" src="img/3d-anim/rig_persp.png"
-          alt="low poly model of xerxes">
-          <footer>3D model of Xerxes, an original character, 
-            built and rigged fully in Maya. Fully functional body and foot systems 
-            for posing and animation. 2023</footer>
-        <p></p>
-      </article>
-      <article>
-        <img class="animation" src="img/3d-anim/rig_persp_systems.png"
-          alt="low poly model of xerxes">
-        <p></p>
-      </article>
+      <div class="animheader">
+        <h2>Modelling & Rigging, 3D</h2>
+        <h2>Xerxes</h2>
+      </div>
+      <iframe class="ytvid" src="https://www.youtube.com/embed/yQKKyIHDrPM?si=9HC0ZNaEmKe05u41" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen></iframe>
+      <section class="anim3dx">
         <article>
-          <img class="animation" src="img/3d-anim/rig_front.png"
+            <img class="animation" src="img/3d-anim/xerx-idle-looped.gif"
+              alt="low poly idle animation of xerxes">
+            <p></p>
+        </article>  
+        <article>
+          <img class="animation" src="img/3d-anim/rig-persp.png"
             alt="low poly model of xerxes">
           <p></p>
         </article>
+        <article>
+          <img class="animation" src="img/3d-anim/rig-persp-systems.png"
+            alt="low poly model of xerxes">
+          <p></p>
+        </article>
+        <article>
+          <img class="animation" src="img/3d-anim/rig-front.png"
+            alt="low poly model of xerxes">
+          <p></p>
+        </article>
+        <article>
+          <img class="animation" src="img/3d-anim/rig-side.png"
+            alt="low poly model of xerxes">
+          <p></p>
+        </article>
+      </section>
+
+      <div class="animheader">
+        <h2>Storm</h2>
         <article>
           <img class="animation" src="img/3d-anim/storm-chibi-model.png"
           alt="chibi style model of the character storm">
           <footer>3D model of Storm, an original character, built in Maya. 2023</footer>
           <p></p>
         </article>
+      </div>
+      <section class="anim3dstorm">
         <article>
           <img class="animation" src="img/3d-anim/storm-idle.gif"
             alt="storm idle animation loop">
@@ -99,7 +125,7 @@
               alt="storm wave animation loop">
             <footer>Storm's wave emote, animated in Unity. 2023</footer>
             <p></p>
-          </article>
+        </article>
         <article>
             <img class="animation" src="img/3d-anim/stormwalk-polish.gif"
               alt="storm walking animation loop">
@@ -113,6 +139,7 @@
             <p></p>
         </article>
       </section>
+    </section>
     <footer id="copyright">copyright nightswan 2023</footer>
   </main>
 </body>
