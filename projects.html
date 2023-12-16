@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap"
     rel="stylesheet">
   <script src="index.js"></script>
+  <script src="projpage.js"></script>
   <title>Projects</title>
 </head>
 <body>
@@ -36,32 +37,49 @@
       <option value="none">None</option>
     </select>
     <button id="badgebutton" class="hidden">Spawn Cat</button>
-    <h2>Character Concept Projects</h2>
-    <section class="charproj" id="storm">
-        <div class="desc">
-          <img class ="charicon" src="img/storm/storm-icon.png" alt="concept headshot of storm">
-          <p>Dawson "Storm" Myers is a laidback professional killer and personal project. A
-          character originating from late 2022, he is an ongoing project with detailed lore,
-          concept art and used within various writing exercises and pieces.</p>
-        </div>
+
+    <h2>Personal Projects</h2>
+    <p>Click icons to toggle work.</p>
+    <div class="desc" id="paragondesc">
+      <h3>Paragons</h3>
+      <img class="charicon" id="paragonsicon" src="img/paragons/observatory-icon-800px.png" 
+        alt="simple swirling pattern">
+      <p>Project Paragons is an ongoing comic collaboration with another artist, Rei. It features 
+        two characters and fantasy setting completely created by myself, and illustrated by my partner.</p>
+    </div>
+    <section class="charproj paragonsproj hidden">
+      <section class="concepts">
+          <img src="img/paragons/god-display-nibiru.png" alt="concept sketch of the god nibiru's space powers">
+          <img src="img/paragons/observatory-concept.png" alt="large open air observatory at night">
+      </section>
+      <section id="flexset"></article>
+        <img src="img/paragons/paragon-nibiru.png" 
+          alt="concept art of character nibiru">
+        <img src="img/paragons/paragon-warai.png"
+          alt="concept art of character warai">
+      </section>
+    </section>
+
+    <div class="desc" id="stormdesc">
+      <h3>Storm</h3>
+      <img class="charicon" id="stormicon" src="img/storm/storm-icon.png" alt="concept headshot of storm">
+      <p>Dawson "Storm" Myers is a laidback professional killer and personal project. A
+      character originating from late 2022, he is an ongoing character with detailed lore,
+      concept art and used within various writing exercises and pieces.</p>
+    </div>
+    <section class="charproj stormproj hidden">
         <section class="concepts">
-          <article>
-            <img class="makesmall" src="img/storm/dawson-lol.png" alt="concept headshot 
-            sketch of the character, dawson">
-            <p>Original headshot sketch from August 2022. At this point, there was no concept
-              for anything beyond (then known as) Dawson's face and small personality details.
-            </p>
-          </article>
-            <img src="img/storm/dawson-sketches.png" alt="concept sketches of dawson (storm)">
-            <img src="img/storm/storm-ref.png" alt="the current reference of storm">
+          <img src="img/storm/dawson-sketches.png" alt="concept sketches of dawson (storm)">
+          <img src="img/storm/storm-ref.png" alt="the current reference of storm">
         </section>
         <section id="flexset"></article>
-          <img class="makesmall" src="img/storm/tornado-warnin.png" alt="concept art of 
-            character storm with another character, hazard">
+          <img class="makesmall" src="img/storm/tornado-warnin.png" 
+            alt="concept art of character storm with another character, hazard">
           <img class="makesmall" src="img/portraits/af-haz-glaze.png"
             alt="two characters posed in a dark room, one holding the other's head">
           <img class="makesmall" src="img/storm/storm-greensketch.PNG" alt="upper body sketch of storm">
           <img class="makesmall" src="img/storm/storm-god-sketch.PNG" alt="sketch page of a winged storm as a god">
+          <img class="makesmall" src="img/storm/storm-purplight.png" alt="upper body render in purple tinted lighting">
         </section>
     </section>
     <footer id="copyright">copyright nightswan 2023</footer>
