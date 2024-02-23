@@ -5,7 +5,7 @@
 */
 
 body {
-  background-image: url("img/legscreen1.png");
+  background-image: url("img/bg-test.png");
   background-attachment: fixed;
   background-size: cover;
   font-family: "Gemunu Libre", sans-serif;
@@ -192,6 +192,7 @@ img {
 
 img.makesmall {
   max-width: 30vw;
+  height: auto;
 }
 
 #flexset {
